@@ -21,6 +21,6 @@
 설명 : ${requestScope.comment }<br>
 파일명 : ${requestScope.image }<br>
 <img src="${initParam.rootPath }/up_images/${requestScope.image}">
-
+	<h2>새로운 push!</h2>
 </body>
 </html>
