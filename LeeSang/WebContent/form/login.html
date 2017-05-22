@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+   <SCRIPT>
+      function closeIt(){  
+        alert("창을 닫습니다 안녕히 가세요!! ");
+      }  
+   </SCRIPT>
+<link rel="stylesheet" href="../login.css">
+</head>
+<body onbeforeunload="closeIt()">
+<form >
+  <div id="wrap">
+   <h1 class="member">LeeSangMember login</h1>
+   <div class="form">
+    <div class="form2">
+     <div class="form3">
+      <label for="user">아이디</label><input type="text" id="user" size="15">
+      <div class="clear"></div>
+      <label for="user">비밀번호</label><input type="password" id="user" size="15">
+     </div>
+     <input type="submit" value="로그인">
+     <div class="clear"></div>
+     <div class="form4">
+      <label><input type="checkbox">아이디저장</label> <label>
+      <input type="checkbox">보안접속</label>
+      <div class="clear"></div>
+      <input type="button" value="회원가입">
+      <input type="button" value="아이디/비밀번호 찾기">
+     </div>
+    </div>
+   </div>
+  </div>
+ </form>
+</body>
+</html>
